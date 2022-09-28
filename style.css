@@ -1,11 +1,13 @@
 
 body{
     background-color: rgba(120, 189, 56, 0.753);
+        font-family: "Lucida Console", "Courier New", monospace;
     }
 h2{
     color: rgb(13, 67, 26);
     font-size: 20px;
     text-align: center;
+    background-color: rgb(190, 213, 134);
         }
 h1{
     color:rgb(255, 255, 255);
@@ -34,3 +36,16 @@ footer{
 .galeria > img{
     border: 3px solid white;
     }
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+      }
+      
+figcaption {
+    background-color: rgb(237, 200, 115);
+    color: rgb(38, 57, 18);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+      }
