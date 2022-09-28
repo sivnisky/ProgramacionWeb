@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgba(120, 189, 56, 0.753);
+    }
+h2{
+    color: rgb(13, 67, 26);
+    font-size: 20px;
+    text-align: center;
+        }
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: center;
+    background-color: rgb(124, 88, 70);
+    }
+p{
+    background-color: white;
+    border-radius: 1.5vw;
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+        }
+footer{
+    color: white;
+    background-color: #936c56;
+    }
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1vw 0 1vw;
+    }
+
+.galeria > img{
+    border: 3px solid white;
+    }
