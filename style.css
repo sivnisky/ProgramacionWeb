@@ -1,6 +1,6 @@
 body{
-    background-color: white;
-        font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(250, 242, 229);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 header{
     text-align:center;   
@@ -136,7 +136,7 @@ p{
           
           .content {
             padding: 20px 30px;
-            background-color: white;
+            background-color: rgb(232, 219, 191);
             position: relative;
             border-radius: 6px;
           }
@@ -154,9 +154,9 @@ p{
           
             .container::before {
               left: 60px;
-              border: medium solid white;
+              border: medium solid rgb(138, 179, 15);
               border-width: 10px 10px 10px 0;
-              border-color: transparent white transparent transparent;
+              border-color: transparent rgb(0, 0, 0) transparent transparent;
             }
 
             .left::after, .right::after {
@@ -172,6 +172,11 @@ footer{
     color: white;
     background-color: #936c56;
     font-weight: 900;
+    font-size: 20px;
+    border-radius: 1.5vw;
+    margin: 2vw;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
     }
 .galeria{
     display: flex;
