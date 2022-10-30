@@ -1,7 +1,7 @@
 
 body{
     background-color: rgb(250, 242, 229);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     }
 header{
     text-align:center;   
@@ -11,10 +11,10 @@ legend{color: red;
     font-weight: 900;}
 
 h2{
-    color: black;
+    color: white;
     font-size: 17px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(222, 189, 134);
     margin: 1vw;
     text-align: center;
     padding-top: 0.7%;
@@ -36,23 +36,33 @@ h4{
     color: whitesmoke;
     font-size: 17px;
     text-align: center;
-    background-color: rgb(228, 144, 0);
+    background-color: rgb(222, 189, 134);
     margin: 2vw;
     text-align: center;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
     font-weight: 900;
-
 }
+
+p11{
+    color: black;
+    font-size: 21px;
+    background-color: rgb(236, 225, 206);
+    margin: 1vw;
+    text-align: left;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-weight: 500;}
+
 p{
-    color: whitesmoke;
+    color: rgb(92, 84, 68);
     font-size: 17px;
-    background-color: rgb(228, 144, 0);
+    background-color: rgb(236, 225, 206);
     margin: 1vw;
     text-align: center;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
-    font-weight: 900;
+    font-weight: 500;
         }
 p1{
     color: whitesmoke;
@@ -62,7 +72,7 @@ p1{
     text-align: center;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
-    font-weight: 900;}
+    font-weight: 500;}
 
     .contenedor{
         display: inline-flex;
@@ -76,7 +86,7 @@ p1{
 .ubicacion {
     color: whitesmoke;
     font-size: 17px;
-    background-color: rgb(250, 242, 229);
+    background-color: rgb(236, 225, 206);
     margin: 1vw;
     text-align: center;
     padding-top: 0.7%;
@@ -86,7 +96,7 @@ p1{
 .empresa {
     color: whitesmoke;
     font-size: 17px;
-    background-color: rgb(250, 242, 229);
+    background-color: rgb(236, 225, 206);
     margin: 1vw;
     text-align: center;
     padding-top: 0.7%;
@@ -96,7 +106,7 @@ p1{
 .climaysuelo {
     color: whitesmoke;
     font-size: 17px;
-    background-color: rgb(250, 242, 229);
+    background-color: rgb(236, 225, 206);
     margin: 1vw;
     text-align: center;
     padding-top: 0.7%;
@@ -145,7 +155,7 @@ footer{
         height: 25px;
         right: -17px;
         background-color: rgb(255, 255, 255);
-        border: 4px solid #FF9F55;
+        border: 4px solid #7ab931;
         top: 15px;
         border-radius: 50%;
         z-index: 1;
@@ -238,7 +248,7 @@ figure {
       }
       
 figcaption {
-    background-color: rgb(237, 200, 115);
+    background-color: rgb(236, 224, 204);
     color: rgb(38, 57, 18);
     font-style: italic;
     padding: 2px;
